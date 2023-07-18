@@ -68,6 +68,9 @@ li a {
   padding: 10px 24px;
   color: #fff;
 }
+.fa-solid {
+  margin-left: 4px;
+}
 /* sponsors section style */
 section {
   width: 875px;
@@ -109,7 +112,7 @@ section {
   gap: 20px;
   margin-top: 30px;
 }
-.popular-section img {
+.popular-section-img {
   width: 260px;
   height: 225px;
 }
@@ -140,25 +143,100 @@ section {
   font-weight: 700;
   line-height: 22px;
 }
+.stats-icon img {
+  width: 11.068px;
+  height: 11.068px;
+  text-align: center;
+}
 .card-description-primary {
-  color:#787885;
+  color: #787885;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
-  line-height: 143%; 
+  line-height: 143%;
   letter-spacing: 0.252px;
 }
+.bottom-title {
+  text-align: end;
+  color: rgba(224, 44, 109, 0.87);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  margin-top: 45px;
+}
+/* Featured products section style */
+.feature-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 60px;
+}
 
-
-
+.feature-section {
+  margin-left: 80px;
+}
+.feature-img {
+  width: 330px;
+  height: 220px;
+  border-radius: 7px;
+}
+.feature-title {
+  color: #0a0826;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 80px;
+}
+.feature-description {
+  color: #6c6c6c;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 25px;
+}
+.feature-btn {
+  padding: 10px 24px;
+  background-color: #e02c6d;
+  color: #fff;
+  border: 0;
+  margin-top: 20px;
+}
+/* Influencer products footer section style */
+footer{
+  text-align: center;
+  background-color: #0a0826;
+  height: 50vh;
+  margin-top: 15vh;
+  align-items: center;
+}
+.footer-title {
+  padding-top: 10vh;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.footer-description {
+  color: #6f8ca8;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.fa-brands{
+  padding: 15px;
+}
+.footer-icon{
+  color: #fff;
+}
 
 /* responsive media queries */
 /* mobile devices */
 @media screen and (max-width: 576px) {
-  nav {
+  nav,
+  .popular {
     flex-direction: column;
   }
-  .content {
+  .content,
+  .feature-content {
     flex-direction: column-reverse;
   }
 
@@ -200,6 +278,25 @@ section {
     height: 40px;
     margin: auto;
   }
+  .feature-section {
+    margin-left: 0px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .feature-title {
+    color: #0a0826;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    margin-bottom: 20px;
+  }
+  footer{
+    
+    margin-top: 5vh;
+  }
+  .footer-title{
+    padding-top: 5vh;
+  }
 }
 
 /* tablet or medium devices */
@@ -211,10 +308,14 @@ section {
   .influencer-title {
     margin-top: 40px;
   }
-  section{
+  section {
     width: 750px;
   }
-  .sponsors-img{
+  .sponsors-img {
     border: 0;
+  }
+  .popular-section-img {
+    width: 230px;
+    height: 225px;
   }
 }
