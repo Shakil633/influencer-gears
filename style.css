@@ -202,14 +202,13 @@ section {
 }
 /* Influencer products footer section style */
 footer{
+  margin-top: 80px;
   text-align: center;
+  padding: 40px;
   background-color: #0a0826;
-  height: 50vh;
-  margin-top: 15vh;
-  align-items: center;
+  
 }
 .footer-title {
-  padding-top: 10vh;
   color: #fff;
   font-size: 24px;
   font-weight: 700;
@@ -226,6 +225,7 @@ footer{
 }
 .footer-icon{
   color: #fff;
+  text-align: center;
 }
 
 /* responsive media queries */
@@ -250,8 +250,7 @@ footer{
     text-align: center;
   }
   .influencer-img {
-    width: 210px;
-    height: 264px;
+    width: 90%;
   }
   .influencer-title {
     font-size: 30px;
@@ -289,13 +288,6 @@ footer{
     font-weight: 700;
     line-height: 32px;
     margin-bottom: 20px;
-  }
-  footer{
-    
-    margin-top: 5vh;
-  }
-  .footer-title{
-    padding-top: 5vh;
   }
 }
 
