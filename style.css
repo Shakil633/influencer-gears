@@ -201,12 +201,11 @@ section {
   margin-top: 20px;
 }
 /* Influencer products footer section style */
-footer{
+footer {
   margin-top: 80px;
   text-align: center;
   padding: 40px;
   background-color: #0a0826;
-  
 }
 .footer-title {
   color: #fff;
@@ -220,10 +219,10 @@ footer{
   font-weight: 700;
   line-height: 24px;
 }
-.fa-brands{
+.fa-brands {
   padding: 15px;
 }
-.footer-icon{
+.footer-icon {
   color: #fff;
   text-align: center;
 }
@@ -270,12 +269,11 @@ footer{
   .sponsors-img {
     grid-template-columns: repeat(4, 1fr);
     border: 0;
-    margin: 0 auto;
   }
   .sponsors-img img {
     width: 60px;
     height: 40px;
-    margin: auto;
+
   }
   .feature-section {
     margin-left: 0px;
